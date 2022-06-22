@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+  .hnbgu-navbar {
+    display: none;
+  }
+  .main-banner {
+    height: 200px;
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    /* margin: 20px; */
+  }
+  .tcc-img {
+    flex-wrap: wrap !important;
+  }
+  .tcc-img img {
+    height: auto;
+    width: 100%;
+  }
+  .tcc-img p {
+    height: auto;
+    padding: 8px 5px;
+  }
+  .event-container .event-box {
+    height: auto;
+  }
+  .event-img {
+    height: 160px;
+  }
+  .event-meta span {
+    /* display: block; */
+    font-size: 10px;
+  }
+  .event-box .pd-event {
+    padding: 2px;
+  }
+  .reg-note p {
+    text-align: justify;
+    margin: 5px 0px;
+  }
+  .reg-note a {
+    margin: 1rem 0rem;
+  }
+  .footer {
+    padding: 15px;
+  }
+  .footer h4 {
+    font-size: 20px;
+  }
+  .event-join {
+    padding: 5px 0px;
+  }
+}
