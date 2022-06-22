@@ -23,11 +23,38 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <!-- Owl carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- main CSS file -->
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- script file -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- main js file -->
     <script defer src="js/main.js"></script>
   </head>
@@ -64,7 +91,12 @@
     </header>
     <!-- HNBGU Council Main Banner -->
     <section id="banner">
-      <div class="main-banner"></div>
+      <div class="owl-carousel">
+        <div class="main-banner item-1"></div>
+        <div class="main-banner item-2"></div>
+        <div class="main-banner item-3"></div>
+        <div class="main-banner item-4"></div>
+      </div>
     </section>
     <!-- HNBGU Council Description -->
     <section id="description" class="container">
@@ -72,14 +104,8 @@
         <div class="col-md-12">
           <h1>HNBGU Councils & Clubs</h1>
         </div>
-        <div class="col-md-12">
-          <!-- <p>
-            Graduate students are busy. Between classes, work, homework, family,
-            and other commitments, there can be a lot to balance. So why would
-            we suggest you add another thing to that list by joining a student
-            organization? Because it can impact your career and student
-            experience in a hugely positive way.
-          </p> -->
+        <div class="col-md-12 d-flex tcc-img">
+          <img src="images/hnbgu-2.png" alt="" />
           <p>
             HNBGU Councils & Clubs have a lot to offer. Whether you join as a
             member or choose to lead one, simply taking part in an
@@ -88,6 +114,8 @@
             student organization will help you become a more well-rounded
             individual — one that’s ready to take on their future career!
           </p>
+        </div>
+        <div class="col-12 mt-3">
           <p>The following clubs and councils have been registered.</p>
         </div>
       </div>
@@ -368,7 +396,7 @@
               <a href="#">View Videos</a>
             </div>
           </div>
-          <div class="instagram">
+          <!-- <div class="instagram">
             <blockquote
               class="instagram-media"
               data-instgrm-captioned
@@ -657,13 +685,31 @@
             <script async src="//www.instagram.com/embed.js"></script>
           </div>
           <div class="twitter">
-            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">HNBGU Councils and Clubs<a href="https://twitter.com/hashtag/hnbgu?src=hash&amp;ref_src=twsrc%5Etfw">#hnbgu</a> <a href="https://twitter.com/hashtag/council?src=hash&amp;ref_src=twsrc%5Etfw">#council</a> <a href="https://twitter.com/hashtag/Club?src=hash&amp;ref_src=twsrc%5Etfw">#Club</a> <br>Technical and Cultural Council for SOET <a href="https://t.co/bEs1AlZknd">pic.twitter.com/bEs1AlZknd</a></p>&mdash; Suraj Aswal (@SurajAs02293624) <a href="https://twitter.com/SurajAs02293624/status/1539519277371248641?ref_src=twsrc%5Etfw">June 22, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <blockquote class="twitter-tweet" style="height: 350px !important">
+              <p lang="en" dir="ltr">
+                📢 The May release of
+                <a href="https://twitter.com/code?ref_src=twsrc%5Etfw">@code</a>
+                is here! Check out what&#39;s new:<br /><br />🌎 Configure
+                display language refresh<br />👍 Extension sponsorship<br />📦
+                Dev container specification<br />... &amp; much more!<br /><br />Release
+                notes:
+                <a href="https://t.co/sOgogJAOV8">https://t.co/sOgogJAOV8</a
+                ><br />Download:
+                <a href="https://t.co/1CSkQpuA7D">https://t.co/1CSkQpuA7D</a>
+                <a href="https://t.co/ZKE2pk9Z46">pic.twitter.com/ZKE2pk9Z46</a>
+              </p>
+              &mdash; Visual Studio Code (@code)
+              <a
+                href="https://twitter.com/code/status/1534958864063287296?ref_src=twsrc%5Etfw"
+                >June 9, 2022</a
+              >
+            </blockquote>
             <script
               async
               src="https://platform.twitter.com/widgets.js"
               charset="utf-8"
             ></script>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -756,6 +802,18 @@
         </div>
       </div>
     </footer>
+    <!-- owl-carousel script -->
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          nav: true,
+          loop: true,
+          autoplay: true,
+          dots: true,
+        });
+      });
+    </script>
   </body>
 </html>
 <!--Author: Suraj Aswal -->
