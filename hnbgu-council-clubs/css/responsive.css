@@ -1,6 +1,54 @@
 @media (max-width: 768px) {
+  .hnbgu-logo {
+    border: 1px solid rgb(221, 220, 220);
+  }
+  .hnbgu-logo .logo {
+    width: 80px;
+  }
+  .hnbgu-logo .brand h1 {
+    font-size: 14px;
+  }
+  .hnbgu-logo .brand span {
+    font-size: 12px;
+  }
+  .fa-bars {
+    font-size: 18px;
+  }
   .hnbgu-navbar {
-    display: none;
+    padding: 10px 0px;
+    width: 100%;
+    /* position: relative; */
+    /* background-color: #333; */
+  }
+  .hnbgu-navbar a {
+    color: #fff;
+  }
+  .bg-md-dark {
+    background: #333;
+    color: #fff;
+    position: relative;
+  }
+  .ham-default {
+    display: block;
+  }
+  .hnbgu-navbar .hnbgu-nav-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    background: #fff;
+    z-index: 100;
+    right: 0%;
+    top: 100%;
+    padding: 10px;
+  }
+  .hnbgu-nav-links a {
+    color: #333;
+    padding: 5px 0px;
+    text-align: center;
+  }
+  .hide-navbar {
+    display: none !important;
   }
   .main-banner {
     height: 200px;
@@ -8,6 +56,10 @@
     background-size: 100%;
     background-position: center;
     /* margin: 20px; */
+  }
+  .owl-next,
+  .owl-prev {
+    top: 40%;
   }
   .tcc-img {
     flex-wrap: wrap !important;
@@ -33,6 +85,16 @@
   .event-box .pd-event {
     padding: 2px;
   }
+  .event-meta {
+    padding: 4px 8px;
+  }
+  .event-description {
+    height: auto;
+    padding: 0px 5px;
+  }
+  .event-description span {
+    font-size: 12px;
+  }
   .reg-note p {
     text-align: justify;
     margin: 5px 0px;
@@ -47,6 +109,14 @@
     font-size: 20px;
   }
   .event-join {
-    padding: 5px 0px;
+    padding: 5px;
+  }
+  .footer-bottom {
+    flex-wrap: wrap;
+  }
+  .first-box,
+  .last-box {
+    text-align: center;
+    margin: 8px 0px;
   }
 }
