@@ -152,6 +152,7 @@
 .dp-sb {
   display: flex;
   justify-content: space-between;
+  align-items:center;
   /* color: #fff; */
 }
 .hnbgu-clubs {
