@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&family=Oswald:wght@700&display=swap");
+
+:root {
+  --hnbgu-color: rgb(0, 128, 0);
+  --hnbgu-text-color: #fff;
+}
 /* Author: Suraj Aswal | https://surajaswal.dev */
 * {
   /* border: 1px solid #000; */
@@ -46,7 +51,7 @@
   width: 40px;
   display: block;
   height: 2px;
-  background: rgb(0, 128, 0);
+  background: var(--hnbgu-color);
 }
 .brand span::after {
   left: unset;
@@ -91,7 +96,7 @@
 }
 /* Decription section */
 /* #description h1 { */
-/* text-decoration: underline rgb(0, 128, 0); */
+/* text-decoration: underline var(--hnbgu-color); */
 /* text-align: center; */
 /* } */
 .owl-dots {
@@ -142,7 +147,7 @@
 }
 .hnbgu-council-tab ul li {
   /* width: 300px; */
-  background: rgb(0, 128, 0);
+  background: var(--hnbgu-color);
   padding: 8px 10px;
   margin: 5px 0px;
   color: #fff;
@@ -152,7 +157,7 @@
 .dp-sb {
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   /* color: #fff; */
 }
 .hnbgu-clubs {
@@ -258,7 +263,7 @@
   text-decoration: none;
 }
 .event-join a:first-of-type {
-  background-color: rgb(0, 128, 0);
+  background-color: var(--hnbgu-color);
 }
 .event-join a:last-of-type {
   background-color: #3b3b3b;
@@ -314,7 +319,7 @@
   padding: 4px 8px;
   border-radius: 5px;
   color: #fff;
-  background-color: rgb(0, 128, 0);
+  background-color: var(--hnbgu-color);
   margin-top: 1rem;
   display: inline-block;
 }
@@ -374,4 +379,36 @@
 }
 .last-box {
   margin-right: 20px;
+}
+/* Registration form */
+.form-wrap {
+  padding: 50px;
+}
+.form-heading {
+  background-color: var(--hnbgu-color);
+  color: var(--hnbgu-text-color);
+}
+.btn-block {
+  padding: 10px;
+  font-size: 30px;
+  border: none;
+  margin: 0;
+}
+.form input[type="submit"] {
+  background-color: #3b3b3b;
+  color: var(--hnbgu-text-color);
+}
+.imp-op {
+  color: #be0f0f;
+}
+.imp-op-tx {
+  font-size: 12px;
+  /* font-style: italic; */
+}
+label {
+  margin: 4px 0px;
+}
+.form-control:focus {
+  border: 1px solid var(--hnbgu-color);
+  box-shadow: none !important;
 }
