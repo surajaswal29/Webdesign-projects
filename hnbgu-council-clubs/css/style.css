@@ -97,6 +97,9 @@
 .item-4 {
   background-image: url("https://lh5.googleusercontent.com/p/AF1QipOgXWK10B1CvUTaKZuQZrR7kNpT6fANkT1CwzJx=w1080-k-no");
 }
+.item-hnb {
+  background-image: url("https://www.hnbgu.ac.in/sites/default/files/styles/page_banner/public/2019-10/late-shri-hemwati-nandan-bahuguna.jpg?itok=SFMwaL4t");
+}
 .main-banner h1 {
   color: #fff;
 }
@@ -544,6 +547,9 @@ label {
 #contact h2 {
   font-size: 25px;
 }
+#contact .fas {
+  font-size: 20px;
+}
 .contact-form {
   border: 1px solid rgba(241, 241, 241, 0.63);
   width: 100%;
@@ -556,4 +562,7 @@ label {
 .contact-form textarea {
   resize: none;
   height: 100px;
+}
+.hnb-about p {
+  text-align: justify;
 }

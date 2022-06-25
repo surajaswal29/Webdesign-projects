@@ -133,9 +133,23 @@
     padding: 2px 10px;
   }
   .contact-form {
-    margin: 0;
+    margin: 10px;
   }
   .contact-form textarea {
     height: 150px;
+  }
+  .hnb-about {
+    padding: 0px 20px;
+  }
+  .hnb-about p {
+    font-size: 12px;
+    color: #333;
+    font-weight: 400;
+  }
+  .hnb-about h1 {
+    font-size: 18px;
+  }
+  .item-hnb {
+    height: 80px !important;
   }
 }
