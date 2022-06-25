@@ -57,6 +57,9 @@
     background-position: center;
     /* margin: 20px; */
   }
+  .sub-banner {
+    height: 120px;
+  }
   .owl-next,
   .owl-prev {
     top: 40%;
@@ -128,5 +131,11 @@
   }
   .form {
     padding: 2px 10px;
+  }
+  .contact-form {
+    margin: 0;
+  }
+  .contact-form textarea {
+    height: 150px;
   }
 }

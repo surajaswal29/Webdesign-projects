@@ -79,6 +79,12 @@
   background-position: center;
   /* margin: 20px; */
 }
+.sub-banner {
+  height: 280px;
+  width: 100%;
+  background-size: 100%;
+  background-position: center;
+}
 .item-1 {
   background-image: url("https://lh5.googleusercontent.com/p/AF1QipNGDKi9Tg7RNalTus20tqviJLPNww2V0QPG9Vmv=w1080-k-no");
 }
@@ -397,6 +403,7 @@
 .form input[type="submit"] {
   background-color: #3b3b3b;
   color: var(--hnbgu-text-color);
+  cursor: not-allowed;
 }
 .imp-op {
   color: #be0f0f;
@@ -404,6 +411,10 @@
 .imp-op-tx {
   font-size: 12px;
   /* font-style: italic; */
+}
+#passError {
+  font-size: 12px;
+  color: #be0f0f;
 }
 label {
   margin: 4px 0px;
@@ -520,4 +531,29 @@ label {
   font-size: 12px;
   color: #be0f0f;
   /* padding: 10px 0px; */
+}
+.lg-p {
+  padding: 15px 0px;
+}
+#contact .address,
+#contact .contact,
+#contact .map-loc {
+  padding: 10px;
+  border-radius: 5px;
+}
+#contact h2 {
+  font-size: 25px;
+}
+.contact-form {
+  border: 1px solid rgba(241, 241, 241, 0.63);
+  width: 100%;
+  padding: 30px;
+  margin: 0% 28%;
+}
+.contact-form .btn {
+  background-color: var(--hnbgu-color);
+}
+.contact-form textarea {
+  resize: none;
+  height: 100px;
 }

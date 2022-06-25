@@ -78,13 +78,13 @@
                   <label for="username"
                     >Firstname<span class="imp-op">*</span></label
                   >
-                  <input type="text" class="form-control" />
+                  <input required type="text" class="form-control" />
                 </div>
                 <div class="col-md-6 mt-3 mt-3">
                   <label for="username"
                     >Lastname<span class="imp-op">*</span></label
                   >
-                  <input type="text" class="form-control" />
+                  <input required type="text" class="form-control" />
                 </div>
               </div>
               <div class="row">
@@ -92,22 +92,22 @@
                   <label for="password"
                     >Email<span class="imp-op">*</span></label
                   >
-                  <input type="text" class="form-control" />
+                  <input required type="text" class="form-control" />
                 </div>
                 <div class="col-md-6 mt-3">
                   <label for="password"
                     >Contact Number<span class="imp-op">*</span></label
                   >
-                  <input type="number" class="form-control" />
+                  <input required type="number" class="form-control" />
                 </div>
-                <!-- <input type="text" class="form-control"> -->
+                <!-- <input required type="text" class="form-control"> -->
               </div>
               <div class="row">
                 <div class="col-md-6 mt-3">
                   <label for="password"
                     >Department<span class="imp-op">*</span></label
                   >
-                  <input type="text" class="form-control" />
+                  <input required type="text" class="form-control" />
                 </div>
                 <div class="col-md-3 mt-3">
                   <label for="password"
@@ -137,7 +137,7 @@
                     <option value="10">10</option>
                   </select>
                 </div>
-                <!-- <input type="text" class="form-control"> -->
+                <!-- <input required type="text" class="form-control"> -->
               </div>
               <div class="row">
                 <div class="col-md-6 mt-3">
@@ -264,27 +264,43 @@
                   <label for="password"
                     >Password<span class="imp-op">*</span></label
                   >
-                  <input type="password" class="form-control" />
+                  <input
+                    required
+                    type="password"
+                    class="form-control"
+                    id="pass"
+                  />
+                  <span id="passError"></span>
                 </div>
                 <div class="col-md-6 mt-3">
                   <label for="password"
                     >Confirm Password<span class="imp-op">*</span></label
                   >
-                  <input type="text" class="form-control" />
+                  <input
+                    required
+                    type="text"
+                    class="form-control"
+                    id="c-pass"
+                    autocomplete="off"
+                  />
+                  <span id="passError"></span>
                 </div>
                 <div class="col-md-12">
                   <span class="imp-op imp-op-tx"
                     >Note: Field marked with (*) are mandatory fields.</span
                   >
                 </div>
-                <!-- <input type="text" class="form-control"> -->
+                <!-- <input required type="text" class="form-control"> -->
               </div>
               <div class="row">
                 <div class="col-md-12 mb-3">
                   <input
+                    required
                     type="submit"
                     value="Submit"
+                    id="reg-submit"
                     class="form-control mt-4"
+                    disabled
                   />
                 </div>
                 <div class="col-md-4">
@@ -294,12 +310,10 @@
                     ><i class="fas fa-home"></i> Home</a
                   >
                 </div>
-                <div class="col-md-4">
-                  <a
-                    href="login.html"
-                    class="nav-link border rounded text-center text-secondary"
-                  >
-                    Already Registered? Login Here</a
+                <div class="col-md-4 text-center lg-p">
+                  <span>Already Registered?</span>
+                  <a href="login.html" class="text-center text-secondary">
+                    Login Here</a
                   >
                 </div>
               </div>
