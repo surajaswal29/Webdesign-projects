@@ -412,3 +412,109 @@ label {
   border: 1px solid var(--hnbgu-color);
   box-shadow: none !important;
 }
+/* Login Form */
+
+.main-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(240, 235, 235);
+  height: 100vh;
+  width: 100%;
+}
+.main-wrap .outer-wrap {
+  width: 315px;
+  /* height: 460px; */
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2.8px 2.2px rgba(116, 114, 114, 0.034),
+    0 6.7px 5.3px rgba(116, 114, 114, 0.034),
+    0 10.5px 8px rgba(116, 114, 114, 0.034),
+    0 20.3px 15.9px rgba(116, 114, 114, 0.034),
+    0 21.8px 18.4px rgba(116, 114, 114, 0.034),
+    0 10px 90px rgba(136, 134, 134, 0.034);
+  text-align: center;
+  padding: 50px 40px 30px 40px;
+}
+h1 {
+  font-size: 22px;
+}
+.form {
+  text-align: left;
+  margin-top: 10px;
+}
+.form label {
+  font-size: 13px;
+  font-weight: 600;
+}
+.form input {
+  width: 100%;
+  height: 34px;
+  border: 1px solid #dbd8d8;
+  border-radius: 8px;
+  padding-left: 6px;
+  margin: 6px 0px;
+}
+.form input:focus {
+  border: 1px solid #c2baba;
+  outline: none;
+  background: #faf9f9;
+}
+.form input::placeholder {
+  color: #c4c2c2;
+  font-size: 14px;
+}
+.form input[type="checkbox"] {
+  height: 11px;
+  width: 11px;
+  background-color: #b9b8b8;
+}
+.rm-me {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 4px;
+}
+.fg-pa {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000;
+  margin-left: 20px;
+}
+.fg-pa:hover {
+  border-bottom: 1px solid var(--hnbgu-color);
+}
+.btn {
+  height: 36px;
+  width: 100%;
+  border-radius: 20px;
+  background: var(--hnbgu-color);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 12px;
+}
+.terms {
+  width: 100%;
+  /* margin-top: 14px; */
+  text-align: left;
+}
+.terms a,
+.terms span {
+  text-decoration: none;
+  color: #3b3b3b;
+  font-weight: 600;
+  font-size: 12px;
+}
+.terms a {
+  cursor: pointer;
+  color: var(--hnbgu-color);
+}
+.terms a:hover {
+  border-bottom: 2px solid var(--hnbgu-color);
+}
+.err {
+  font-size: 12px;
+  color: #be0f0f;
+  /* padding: 10px 0px; */
+}
