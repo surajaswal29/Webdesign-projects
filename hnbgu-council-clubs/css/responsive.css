@@ -152,4 +152,10 @@
   .item-hnb {
     height: 80px !important;
   }
+  .event-container-details .event-poster {
+    height: 200px;
+  }
+  .event-container-details .table td {
+    font-size: 12px;
+  }
 }

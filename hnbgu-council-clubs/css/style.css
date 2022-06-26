@@ -145,9 +145,12 @@
   width: 450px;
 }
 .tcc-img p {
-  height: 100px;
+  /* height: 100px; */
   text-align: justify;
-  padding: 0px 15px;
+  /* padding: 0px 15px; */
+}
+.hnbgu-council-tab {
+  padding: 15px 10px;
 }
 .hnbgu-council-tab ul {
   list-style: none;
@@ -263,6 +266,9 @@
   display: block;
   font-size: 12px;
 }
+.event-description {
+  height: 78px;
+}
 .event-description span {
   display: block;
   font-size: 13px;
@@ -270,6 +276,7 @@
 .event-join a {
   color: #fff;
   text-decoration: none;
+  font-size: 12px;
 }
 .event-join a:first-of-type {
   background-color: var(--hnbgu-color);
@@ -543,9 +550,21 @@ label {
 #contact .map-loc {
   padding: 10px;
   border-radius: 5px;
+  height: 210px;
+  border: 1px solid rgb(243, 242, 242) !important;
+  box-shadow: 0 2.8px 2.2px rgba(116, 114, 114, 0.034),
+    0 6.7px 5.3px rgba(116, 114, 114, 0.034),
+    0 10.5px 8px rgba(116, 114, 114, 0.034),
+    0 20.3px 15.9px rgba(116, 114, 114, 0.034),
+    0 21.8px 18.4px rgba(116, 114, 114, 0.034),
+    0 10px 90px rgba(136, 134, 134, 0.034);
 }
 #contact h2 {
   font-size: 25px;
+  background-color: var(--hnbgu-color);
+  color: var(--hnbgu-text-color);
+  padding: 4px 8px;
+  box-sizing: border-box;
 }
 #contact .fas {
   font-size: 20px;
@@ -572,7 +591,8 @@ label {
 }
 .event-search h2,
 .recent-events h2 {
-  font-size: 26px;
+  font-size: 18px;
+  font-weight: 400;
   background-color: #2c2c2c;
   color: var(--hnbgu-text-color);
   padding: 6px 10px;
@@ -590,7 +610,7 @@ label {
 }
 .recent-event-box .event-img {
   width: 100%;
-  height: 100px;
+  height: 120px;
 }
 .recent-event-box .event-img img {
   width: 100%;
@@ -600,10 +620,45 @@ label {
   font-size: 9px;
 }
 .recent-event-box .event-description span {
-  font-size: 10px;
+  font-size: 12px;
 }
 .recent-event-box .event-description,
 .recent-event-box .event-meta,
 .recent-event-box .event-join {
-  padding: 6px;
+  padding: 2px 6px;
+}
+.event-container-details .event-poster {
+  width: 100%;
+  height: 400px;
+  /* border: 1px solid #000; */
+}
+.event-poster img {
+  width: 100%;
+  height: 100%;
+}
+.event-container-details p {
+  text-align: justify;
+}
+.event-container-details span {
+  font-size: 25px;
+  display: block;
+  color: #2c2c2c;
+}
+.event-container-details span:first-of-type {
+  font-size: 28px;
+}
+.event-container-details table tr td:first-of-type {
+  background-color: #3b3b3b;
+  color: var(--hnbgu-text-color);
+}
+.event-container-details .join-event {
+  background-color: var(--hnbgu-color);
+  text-decoration: none;
+  padding: 6px 15px;
+  color: var(--hnbgu-text-color);
+  border-radius: 5px;
+  margin-top: 20px;
+  display: block;
+  width: 150px;
+  text-align: center;
 }
